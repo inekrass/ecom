@@ -34,3 +34,7 @@ npm install
 ```bash
 npm run dev
 ```
+
+## Deploy
+
+https://inekrass.github.io/ecom/
