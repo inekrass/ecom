@@ -8,23 +8,35 @@ import './App.css';
 function App() {
   const [products] = useState(mockProducts);
   const [selectedProduct, setSelectedProduct] = useState(null);
+  const [searchText, setSearchText] = useState('');
+
+  const filteredProducts = products.filter((product) =>
+    product.name.toLowerCase().includes(searchText.toLowerCase())
+  );
 
   return (
     <div className="app">
       <header className="app__header">
         <h1 className="app__title">Велосипед</h1>
-        <SearchBar value="" onChange={() => {}} />
+        <SearchBar 
+          value={searchText} 
+          onChange={(e) => setSearchText(e.target.value)} 
+        />
       </header>
       
       <main className="app__main">
         <div className="app__products">
-          {products.map((product) => (
-            <ProductCard
-              key={product.id}
-              product={product}
-              onClick={() => setSelectedProduct(product)}
-            />
-          ))}
+          {filteredProducts.length > 0 ? (
+            filteredProducts.map((product) => (
+              <ProductCard
+                key={product.id}
+                product={product}
+                onClick={() => setSelectedProduct(product)}
+              />
+            ))
+          ) : (
+            <div className="app__no-products">Товары не найдены</div>
+          )}
         </div>
       </main>
 
