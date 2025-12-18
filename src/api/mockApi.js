@@ -1,59 +1,59 @@
 export const mockProducts = [
   {
     id: 1,
-    name: 'Елка',
-    price: 89990,
-    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/12/d2f0c344-f1c8-4f6e-b3eb-df8712224dfb',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+    name: 'Электрическая плитка Energy',
+    price: 429,
+    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/09/fafcff7a-cf14-4d7c-9047-f088aed071ee',
+    description: 'Компактная электрическая плитка. Благодаря мощности 1000 Вт быстро нагревается. Поворотный тумблер плавно регулирует температуру. Есть защита от перегрева.'
   },
   {
     id: 2,
-    name: 'Елка',
-    price: 249990,
-    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/12/d2f0c344-f1c8-4f6e-b3eb-df8712224dfb',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+    name: 'Электрочайник Polaris Pwk',
+    price: 3699,
+    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/11/a075221c-1171-4965-bcf4-57a047b91c52',
+    description: 'Электрический чайник с управлением через Wi-Fi. Благодаря технологии Waterway Pro удобно заливать воду без открытия крышки. 5 температурных режимов: 40, 70, 80, 90, 100°C. Панель управления на ручке. Корпус из термостойкого стекла с яркой внутренней подсветкой, меняющей цвет в зависимости от температуры. Совместим с голосовыми помощниками Алиса, Маруся, Салют и мобильными приложениями.'
   },
   {
     id: 3,
-    name: 'Елка',
-    price: 34990,
-    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/12/d2f0c344-f1c8-4f6e-b3eb-df8712224dfb',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+    name: 'Электрические щипцы для завивки Redmond',
+    price: 1265,
+    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/12/ae2ed65f-9e8b-444a-85a2-abc2506ec179',
+    description: 'Полноразмерные электрощипцы подходят для создания упругих завитков, не оставляют заломов на волосах. Благодаря керамическому покрытию с турмалиновой ионизацией равномерно прогреваются, не вредят волосам и снимают статику. Наконечник термоизолирован — удобно держать без риска обжечься.'
   },
   {
     id: 4,
-    name: 'Елка',
-    price: 44990,
-    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/12/d2f0c344-f1c8-4f6e-b3eb-df8712224dfb',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+    name: 'Аппарат AsiaCare для удаления бородавок и папиллом',
+    price: 1700,
+    image: 'https://cm.samokat.ru/processed/l/product_card/4673727475145_1.jpeg',
+    description: 'Аппарат удаляет бородавки и папилломы методом ионной карбонизации. Он имеет 15 режимов мощности для точной настройки под тип образования и чувствительность кожи. В комплекте — тонкие и толстые иглы для обработки разных зон.'
   },
   {
     id: 5,
-    name: 'Елка',
-    price: 129990,
-    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/12/d2f0c344-f1c8-4f6e-b3eb-df8712224dfb',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+    name: 'Защитные накладки Mallony Pretto, для газовых плит',
+    price: 169,
+    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/09/496d46aa-7023-425c-bfca-26a8dfa8f08b',
+    description: 'Накладки помогут защитить поверхность газовой плиты от загрязнений. Не деформируются при высокой температуре. Легко снимаются и моются горячей водой с мылом.'
   },
   {
     id: 6,
-    name: 'Елка',
-    price: 199990,
-    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/12/d2f0c344-f1c8-4f6e-b3eb-df8712224dfb',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+    name: 'Панель сменная для мультипекаря Red Solution',
+    price: 1125,
+    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/11/8cae2392-2e7e-4d89-8acc-7e048e01b957',
+    description: 'Сменная панель для приготовления гриль-сэндвичей в мини-пекарнях Red Solution. Ещё можно печь пирожки, оладьи и делать сырники. Благодаря антипригарному покрытию выпечка не прилипнет ко дну. Панель легко моется вручную и в посудомоечной машине.'
   },
   {
     id: 7,
-    name: 'Елка',
-    price: 59990,
-    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/12/d2f0c344-f1c8-4f6e-b3eb-df8712224dfb',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+    name: 'Чаша для хлебопечки REDMOND',
+    price: 1495,
+    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/12/9dd26ba8-ab9f-409f-a143-4139ffc98d66',
+    description: 'Чаша с антипригарным покрытием равномерно нагревается, поэтому хлеб получается хрустящим и румяным. Не впитывает запахи и легко моется. Готовить можно с минимальным количеством масла или без него. В комплекте — лопасть для быстрого замешивания теста.'
   },
   {
     id: 8,
-    name: 'Елка',
-    price: 8990,
-    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/12/d2f0c344-f1c8-4f6e-b3eb-df8712224dfb',
-    description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.'
+    name: 'Насадка-мясорубка для кухонного комбайна Redmond',
+    price: 2625,
+    image: 'https://damcdn.samokat.ru/dam-storage-ext-env-prod/2025/12/31bcc1b7-b9c9-49ba-abe6-00917c3e8527',
+    description: 'Насадка-мясорубка для комбайна, чтобы готовить фарш легко и быстро. Просто разбирается и моется. Металлический шнек и сменные решётки создают любую текстуру — от нежного фарша до крупной нарезки.'
   }
 ];
 
