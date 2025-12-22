@@ -26,25 +26,10 @@
   color: #9ca3af;
 }
 
-.search-bar__icon {
-  position: absolute;
-  right: 18px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-size: 20px;
-  pointer-events: none;
-  opacity: 0.5;
-}
-
 @media (max-width: 768px) {
   .search-bar__input {
     padding: 12px 45px 12px 16px;
     font-size: 14px;
-  }
-
-  .search-bar__icon {
-    right: 14px;
-    font-size: 18px;
   }
 }
 
